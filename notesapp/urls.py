@@ -13,6 +13,8 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+# Adding comment to check if the build is getting triggered or not after pushing the code to github and if it doesn't I have to troubleshoot and now we've corrected the webhook URL.
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import TemplateView

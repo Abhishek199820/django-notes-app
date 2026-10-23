@@ -17,6 +17,6 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-# Now troubleshooting the automation.
+# Now troubleshooting the automation and I don't know how can I fix the issue as this is new for me.
 if __name__ == '__main__':
     main()

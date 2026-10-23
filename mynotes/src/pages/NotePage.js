@@ -3,6 +3,8 @@ import { useParams,useNavigate,Link } from 'react-router-dom'
 // import notes from '../assets/data.js'
 import { ReactComponent as ArrowLeft } from '../assets/arrow-left.svg'
 
+// https://github.com/Abhishek199820/django-notes-app.git adding new comment
+
 const NotePage = () => {
   let { id }  = useParams();
   let navigate = useNavigate()

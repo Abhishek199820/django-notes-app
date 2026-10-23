@@ -17,6 +17,6 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-# Adding comment to check if the build is getting triggered or not after pushing the code to github and if it doesn't I have to troubleshoot.
+# Adding comment to check if the build is getting triggered or not after pushing the code to github and if it doesn't I have to troubleshoot and now we've corrected the webhook URL.
 if __name__ == '__main__':
     main()
